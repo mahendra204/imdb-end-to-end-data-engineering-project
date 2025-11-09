@@ -2,10 +2,6 @@ import requests
 import os
 import boto3
 from datetime import datetime
-
-#welcome to the imdb data extraction function
-#build a lambda function to extract data from imdb website and save it to s3 bucket
-
  
 def lambda_handler(event, context):
     
